@@ -14,6 +14,7 @@ module.exports = {
         views: "@/views",
         network: "@/network",
         assets: "@/assets",
+        common: "@/common",
       },
     },
   },

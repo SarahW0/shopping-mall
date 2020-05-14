@@ -20,8 +20,8 @@ export default {
 
 <style scoped>
 .nav-bar {
-  height: 8vh;
-  line-height: 8vh;
+  height: 10vh;
+  line-height: 10vh;
 
   width: 100%;
   display: flex;
@@ -31,12 +31,17 @@ export default {
   box-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
 }
 
-.nav-bar .left,
-.nav-bar .right {
+.nav-bar img {
+  width: 100%;
+  vertical-align: middle;
+}
+
+.left,
+.right {
   width: 60px;
 }
 
-.nav-bar .center {
+.center {
   flex: 1;
 
   text-transform: uppercase;
